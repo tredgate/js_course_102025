@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/tredgate/js_course_102025/issues"
   },
-  "homepage": "https://github.com/tredgate/js_course_102025#readme"
+  "homepage": "https://github.com/tredgate/js_course_102025#readme",
+  "dependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "chai": "^6.2.0",
+    "mocha": "^11.7.4",
+    "moment": "^2.30.1"
+  }
 }
